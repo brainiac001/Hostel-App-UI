@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center|bottom"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/drop_top"
+        android:layout_width="match_parent"
+        android:src="@drawable/droptop"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/drop_bottom"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:src="@drawable/dropbottom"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/dotsimage"
+        android:layout_width="match_parent"
+        android:src="@drawable/dot1"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_height="match_parent">
+
+    </ImageView>
+
+<LinearLayout
+    android:id="@+id/danbath"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/_60sdp"
+        android:src="@drawable/ic_launcher2"
+        android:layout_height="@dimen/_60sdp">
+
+    </ImageView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imadtech"
+        android:text="Danbath Schools App"
+        android:textColor="@color/colorPrimary2"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14ssp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorAccent"
+        android:text="Developed by ImadeTech" />
+
+        <ImageView
+            android:id="@+id/loading"
+            android:visibility="gone"
+            android:layout_width="@dimen/_50sdp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_baseline_settings_24"
+            android:layout_height="@dimen/_50sdp">
+
+        </ImageView>
+
+</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_background"
+            android:layout_above="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/anim_slideshow" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/gallerytext"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:text="Gallery"
+            android:textStyle="bold"
+            android:layout_above="@+id/welcome"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/layout_bg4"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/welcome"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Welcome to"
+            android:layout_above="@+id/unique"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/arruba"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/unique"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_18ssp"
+            android:fontFamily="@font/arruba"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Danbath Schools" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingTop="0.5dp"
+        android:paddingBottom="0.5dp"
+        android:background="#9E38383A"
+        android:layout_weight="5.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            >
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:weightSum="2.5"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ly1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_bg2"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/ic_message_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:text="Newsletter"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/layout_bg3"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/event" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:text="School\nEvents"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:weightSum="2.5"
+                android:layout_weight="1">
+
+
+                <LinearLayout
+                    android:id="@+id/ly3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/layout_bg3"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/ic_assignment_black_24dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:singleLine="true"
+                        android:text="E-learning"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_bg"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/staffs" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:text="Staff"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:weightSum="2.5"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ly5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_bg2"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/calender" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:text="Calender"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1.5"
+                    android:background="@drawable/layout_bg3"
+                    android:gravity="top|left"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:paddingTop="20dp">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:src="@drawable/website" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="2dp"
+                        android:text="Our\nWebsite"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="4"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/ly7"
+            android:background="@drawable/layout_bg4"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_2sdp"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:padding="@dimen/_3sdp"
+                app:srcCompat="@drawable/timetable" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Timetable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly8"
+            android:layout_width="0dp"
+            android:background="@drawable/layout_bg4"
+            android:layout_height="match_parent"
+            android:layout_weight=" 1"
+            android:layout_margin="@dimen/_2sdp"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_weight="4"
+                android:padding="2dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:srcCompat="@drawable/payment" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Payment" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ly9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/layout_bg4"
+            android:weightSum="5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_weight="4"
+                android:padding="@dimen/_3sdp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:srcCompat="@drawable/info" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Student Portal" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ly11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:weightSum="5"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@drawable/layout_bg4"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_weight="4"
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:srcCompat="@drawable/aboutus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="About us" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
