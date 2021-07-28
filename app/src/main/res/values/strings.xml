@@ -1,16 +1,3 @@
 <resources>
-    <string name="app_name">Danbath Schools App</string>
-
-    <string name="topics">danbath</string>
-    <string name="school_name">Danbath Schools</string>
-    <string name="rulers_palace_staff">Danbath Schools staff</string>
-    <string name="rulers_palace_website">Danbath Schools Website</string>
-    <string name="about_rulers_palace">About Danbath Schools</string>
-    <string name="rulers_palace_app">Danbath Schools App</string>
-    <string name="serverkey">AAAAXGIvlE4:APA91bFJG19-PpJg0asnk2VkOPKIKjNl4SddS3PBo7a6c1g-hmMtvTS-GiVCiYLikXLf_LUdsiyc1lQmaWwYNPcgW3DNe-M8GUh4qmONRkAHAnUpzn2SL5kZr9ekMP6tKey65HF4_y55</string>
-    <string name="rulers_palace_nadmin_portal">Danbath Schools
-        \nAdmin Portal </string>
-    <string name="rulers_palace_montessori_school">Seato Schools</string>
-    <string name="rulers_palace_nstaff_portal">Danbath Schools
-        \nStaff Portal </string>
+    <string name="app_name">Destiny Suites Mobile App</string>
 </resources>

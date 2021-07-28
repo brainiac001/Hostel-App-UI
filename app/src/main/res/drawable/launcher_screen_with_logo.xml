@@ -6,12 +6,12 @@
 
     <!--Background color of your Splash Screen-->
     <item android:drawable="@color/white" />
+
     <item>
+        <!--This logo is 144x144 px. If your image is larger, you should scale it to fit nicely-->
         <bitmap
             android:gravity="center"
-            android:src="@drawable/ic_launcher2" />
+            android:src="@drawable/app_logo" />
     </item>
-
-
 
 </layer-list>
